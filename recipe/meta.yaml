@@ -22,7 +22,8 @@ requirements:
     - poetry
   run:
     - python >={{ python_min }},<4.0.0
-    - cryptography >=40.0
+    - cryptography >=44.0.1
+    - tenacity >=8 
 test:
   imports:
     - aia_chaser
