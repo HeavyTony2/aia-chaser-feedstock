@@ -1,5 +1,5 @@
 {% set name = "aia-chaser" %}
-{% set version = "3.4.0" %}
+{% set version = "3.4.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/aia_chaser-{{ version }}.tar.gz
-  sha256: 47b3f64b665661ec320768cd0e467bfe983bfdf9cf96902f1a48a4060064f34d
+  sha256: 3cc3a155530278fda5d84d2f0db630e9b58e7cfeb834e0c4b8c90ed5c51953a8
 
 build:
   noarch: python
@@ -23,7 +23,7 @@ requirements:
   run:
     - python >={{ python_min }},<4.0.0
     - cryptography >=44.0.1
-    - tenacity >=8 
+    - tenacity >=8
 test:
   imports:
     - aia_chaser
