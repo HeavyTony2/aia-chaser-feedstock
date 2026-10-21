@@ -11,7 +11,7 @@ Summary: Chase authority information access from a host certificate to complete 
 
 Development: https://github.com/jponf/aia-chaser
 
-Documentation: https://aia-chaser.readthedocs.io
+Documentation: https://aia-chaser.readthedocs.io/
 
 Current build status
 ====================
