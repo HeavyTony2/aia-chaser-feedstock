@@ -60,7 +60,7 @@ conda install aia-chaser
 <summary>With mamba</summary>
 
 ```
-mamba install aia-chaser
+mamba install aia-chaser #Prout
 ```
 
 </details>
